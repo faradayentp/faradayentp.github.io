@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from swlabs.co/exploore/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Jun 2017 11:01:04 GMT -->
+<head>
+    <link rel="icon" href="faradaylogo.jpg" type="image/gif">
+        <title>Faraday Enterprises</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- FONT CSS-->
+        <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900">
+        <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:400,700">
+        <link type="text/css" rel="stylesheet" href="assets/font/font-icon/font-awesome/css/font-awesome.css">
+        <link type="text/css" rel="stylesheet" href="assets/font/font-icon/font-flaticon/flaticon.css">
+        <!-- LIBRARY CSS-->
+        <link type="text/css" rel="stylesheet" href="assets/libs/bootstrap/css/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="assets/libs/animate/animate.css">
+        <link type="text/css" rel="stylesheet" href="assets/libs/slick-slider/slick.css">
+        <link type="text/css" rel="stylesheet" href="assets/libs/slick-slider/slick-theme.css">
+        <link type="text/css" rel="stylesheet" href="assets/libs/selectbox/css/jquery.selectbox.css">
+        <link type="text/css" rel="stylesheet" href="assets/libs/please-wait/please-wait.css">
+        <link type="text/css" rel="stylesheet" href="assets/libs/fancybox/css/jquery.fancybox8cbb.css?v=2.1.5">
+        <link type="text/css" rel="stylesheet" href="assets/libs/fancybox/css/jquery.fancybox-buttons3447.css?v=1.0.5">
+        <link type="text/css" rel="stylesheet" href="assets/libs/fancybox/css/jquery.fancybox-thumbsf2ad.css?v=1.0.7">
+        <!-- STYLE CSS-->
+        <link type="text/css" rel="stylesheet" href="assets/css/layout.css">
+        <link type="text/css" rel="stylesheet" href="assets/css/components.css">
+        <link type="text/css" rel="stylesheet" href="assets/css/responsive.css">
+        <link type="text/css" rel="stylesheet" href="assets/css/color.css">
+        <!--link(type="text/css", rel='stylesheet', href='assets/css/color-1/color-1.css', id="color-skins")-->
+        <link type="text/css" rel="stylesheet" href="assets/css/color-1/color.css" id="color-skins">
+        <script src="assets/libs/jquery/jquery-2.2.3.min.js"></script>
+        <script src="assets/libs/js-cookie/js.cookie.js"></script>
+        <script>
+            if ((Cookies.get('color-skin') != undefined) && (Cookies.get('color-skin') != 'color-1'))
+            {
+                $('#color-skins').attr('href', 'assets/css/' + Cookies.get('color-skin') + '/' + 'color.css');
+            }
+            else if ((Cookies.get('color-skin') == undefined) || (Cookies.get('color-skin') == 'color-1'))
+            {
+                $('#color-skins').attr('href', 'assets/css/color-1/color.css');
+            }
+        </script>
+        <link type="text/css" rel="stylesheet" href="assets/libs/bootstrap-datepicker/css/bootstrap-datepicker.min.css">
+    <style>
+        .carousel-control.left
+        {
+            background: none;
+        }
+        .carousel-control.right
+        {
+            background: none;
+        }
+
+        .carousel-control
+        {
+            position: absolute;
+            top: 45%;
+            bottom: 0;
+            left: 0;
+            width: 15%;
+            font-size: auto;
+            color: #fff;
+            text-align: center;
+            opacity: 1;
+            text-shadow: none;
+        }
+        .carousel-control:hover
+        {
+            color: #000;
+        }
+        .carousel-indicators
+        {
+            bottom: -50px;
+        }
+        .carousel-indicators li
+        {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            margin: 1px;
+            text-indent: -999px;
+            cursor: pointer;
+            background-color: #000\9;
+            background-color: rgba(0,0,0,0);
+            border: 1px solid #16a085;
+            border-radius: 50%;
+        }
+        .carousel-indicators .active
+        {
+            width: 12px;
+            height: 12px;
+            margin: 0;
+            background-color: #16a085;
+        }
+        .carousel-caption
+        {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 10;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            color: #fff;
+            text-align: center;
+            background: rgba(0,0,0,0.4);
+        }
+        @media only screen and (max-width: 768px) {
+            .carousel slide {
+                padding-bottom: 10px;
+            }
+            .helper{
+                display: none;
+            }
+        }
+        @media only screen and (max-width: 520px) {
+            .carousel slide {
+            padding-bottom: 10px;
+            }
+            .helper{
+                display: none;
+            }
+        }
+
+
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="40">
+
+        <div class="body-wrapper">
+            <!-- MENU MOBILE-->
+            <div class="wrapper-mobile-nav">
+
+                <div class="header-main">
+                    <div class="menu-mobile">
+                        <ul class="nav-links nav navbar-nav">
+                          <li><a href="#section1" class="main-menu"><span class="text">Home</span></a></li>
+                            <li><a href="#section2" class="main-menu"><span class="text">About</span></a></li>
+
+                              <li><a href="#section3" class="main-menu"><span class="text">Gallery</span></a></li>
+                            <li><a href="#section4" class="main-menu"><span class="text">Contact</span></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <!-- WRAPPER CONTENT-->
+            <div class="wrapper-content">
+                <!-- HEADER-->
+                <header>
+                    <div class="bg-transparent header-01">
+
+                        <div class="header-main">
+                            <div class="container">
+                                <div class="header-main-wrapper">
+                                    <div class="hamburger-menu">
+                                        <div class="hamburger-menu-wrapper">
+                                            <div class="icons"></div>
+                                        </div>
+                                    </div>
+                                    <div class="navbar-header">
+                                        <div class="logo">
+                                            <a href="index.html" class="header-logo"><img src="faradaylogo.jpg" alt="imgs" /></a>
+                                        </div>
+                                    </div>
+                                    <nav class="navigation">
+                                        <div class="container-fluid">
+                                            <div class="navbar-header">
+                                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                                    <span class="icon-bar"></span>
+                                                    <span class="icon-bar"></span>
+                                                    <span class="icon-bar"></span>
+                                                </button>
+
+                                            </div>
+                                            <div>
+                                                <div class="collapse navbar-collapse" id="myNavbar">
+                                        <ul class="nav-links nav navbar-nav">
+                                              <li><a href="#section1" class="main-menu"><span class="text">Home</span></a></li>
+                                            <li><a href="#section2" class="main-menu"><span class="text">About</span></a></li>
+                                            <li><a href="#section3" class="main-menu"><span class="text">Gallery</span></a></li>
+                                            <li><a href="#section4" class="main-menu"><span class="text">Contact</span></a></li>
+                                           <!-- <li class="button-search">
+                                                <p class="main-menu"><i class="fa fa-search"></i></p>
+                                            </li> -->
+                                        </ul>
+                                      <!--  <div class="nav-search hide">
+                                            <form><input type="text" placeholder="Search" class="searchbox" /><button type="submit" class="searchbutton fa fa-search"></button></form>
+                                        </div> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </nav>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <!-- WRAPPER-->
+                <div id="section1" class="container-fluid">
+                <div id="wrapper-content">
+                    <!-- MAIN CONTENT-->
+                    <div class="main-content">
+                        <section class="page-banner homepage-default">
+                            <div class="container">
+                                <div class="homepage-banner-warpper">
+                                    <div class="homepage-banner-content">
+                                        <div class="group-title">
+                                            <h1 class="title">Faraday Enterprises</h1>
+                                            <p class="text">Providing high quality contracting services! <span class="boder"></span></p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div id="section2" class="container-fluid">
+            <section class="about-us layout-1 padding-top padding-bottom" style="padding-top: 0px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="group-title">
+
+
+                                <h2 class="main-title"> Welcome to Faraday Enterprises</h2></div>
+                            <div class="about-us-wrapper">
+                                <p class="text" align="justify">Faraday Enterprises has been among the most emerging contracting services in N.T.P.C (National Thermal Power Corporation), Power Grid Corporation of India Limited and Powerlinks Transmission Limited with headquarters based in Kahalgaon. It has been working and contibuting among the following domains.
+
+                                </p>
+                                <div class="group-list">
+                                    <ul>
+                                        <li>
+                                            <p class="text">High Voltage(800KV,400KV,132KV) transmission line maintenance</p>
+                                        </li>
+                                        <li>
+                                            <p class="text">Clients are Power Grid Corporation of India Limited and Powerlinks Transmission Limited</p>
+                                        </li>
+                                        <li>
+                                            <p class="text">N.T.P.C electrical maintenance, erection, C&I(Control and Instrumentation) maintenance</p>
+                                        </li>
+                                        <li>
+                                            <p class="text">Highly skilled technicians and highly qualified supervisors and workers with adequate experience for executing the work</p>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <p class="text">A huge manpower to carry out the work and take it to its finish line</p>
+                                        </li>
+                                        <li>
+                                            <p class="text">N.T.P.C 400KV switch yard maintenance, CHP electrical maintenance, station lighting maintenance, etc.</p>
+                                        </li>
+                                        <li>
+                                            <p class="text">C&I maintenance for boiler, turbine, AHP(Ash Handling Plant) </p>
+                                        </li>
+                                        <li>
+                                            <p class="text">Motorized Value Maintenance</p>
+                                        </li>
+                                        <li>
+                                            <p class="text">India's highest voltage transmission line (800KV) rectification and maintenance work</p>
+                                        </li>
+                                        <li>
+                                            <p class="text">Rectification work, disc replacement, replacement of disc insulator string by polymer insulator</p>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div data-wow-delay="0.5s" class="about-us-image wow zoomIn"><img src="Capture.jpg" alt="" class="img-responsive"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            </div>
+
+            <div id="section3" class="container-fluid">
+                <section id="exp2" style="padding-bottom: 20px;">
+                            <div class="container"><div class="group-title">
+                                <h2 class="main-title">Gallery</h2></div>
+                                <!-- Indicators -->
+                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="pic8.jpg" alt="Chania" style="width: 1366px; height: 500px" >
+
+                                        </div>
+                                        <div class="item">
+                                            <img src="pic7.jpg" alt="Chania" style="width: 1366px; height: 500px">
+
+                                        </div>
+                                        <div class="item">
+                                            <img src="pic3.jpg" alt="Chania" style="width: 1366px; height: 500px">
+
+                                        </div>
+                                        <div class="item">
+                                            <img src="pic6.jpg" alt="Chania" style="width: 1366px; height: 500px">
+
+                                        </div>
+                                        <div class="item">
+                                            <img src="pic9.jpg" alt="Chania" style="width: 1366px; height: 500px">
+
+                                        </div>
+                                        <div class="item">
+                                            <img src="pic10.jpg" alt="Flower" style="width: 1366px; height: 500px">
+
+                                        </div>
+                                        <div class="item">
+                                            <img src="pic5.jpg" alt="Flower" style="width: 1366px; height: 500px">
+
+                                        </div>
+                                        <div class="item">
+                                            <img src="pic2.jpg" alt="Flower" style="width: 1366px; height: 500px">
+
+                                        </div>
+                                        <div class="item">
+                                            <img src="pic11.jpg" alt="Flower" style="width: 1366px; height: 500px">
+
+                                        </div>
+
+                                    </div>
+                                    <!-- Left and right controls -->
+                                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                       <!-- <span class="fa fa-angle-left" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>-->
+                                    </a>
+                                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                       <!-- <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>-->
+                                    </a>
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                                        <li data-target="#myCarousel" data-slide-to="4"></li>
+                                        <li data-target="#myCarousel" data-slide-to="5"></li>
+                                        <li data-target="#myCarousel" data-slide-to="6"></li>
+                                        <li data-target="#myCarousel" data-slide-to="7"></li>
+                                        <li data-target="#myCarousel" data-slide-to="8"></li>
+
+                                    </ol>
+                                </div>
+                            </div>
+                        </section>
+
+
+
+        <section class="banner-sale-1">
+            <div class="banner-left">
+                <div class="title-box">
+                    <h1 class="title-overlay title-1 padding-top">Connect</h1>
+                    <h1 class="title-overlay title-2">And Maintain</h1>
+                    <h1 class="title-overlay title-3 padding-bottom">Power Lines</h1></div>
+            </div>
+            <div class="banner-right">
+                <div class="text-salebox">
+                    <div class="text-left">
+                        <div class="sale-box">
+                            <div class="sale-box-top">
+
+                            <h2 class="text-sale">Best Contracting Services</h2></div>
+                    </div>
+                    <div class="text-right">
+                        <h5 class="title">
+                            <a href="http://www.newzealand.com/sg/plan/business/vyas-travels-promoting-100-pure-new-zealand/" style="color: white;">Safety First. Top-notch safety and security for workers and people.</a></h5>
+
+                    </div>
+                </div>
+                </div></div>
+        </section>
+            </div>
+
+            <div id="section4" class="container-fluid">
+        <!-- BUTTON BACK TO TOP-->
+        <div id="back-top"><a href="#top" class="link"><i class="fa fa-angle-double-up"></i></a></div>
+
+        <!-- FOOTER-->
+        <footer>
+
+            <div class="footer-main" style="padding-top :10px;padding-bottom:10px;">
+                <div class="container">
+                    <div class="footer-main-wrapper">
+                        <a href="index.html" class="logo-footer"><img src="wlogo.png" alt="vyas" class="img-responsive" style="padding-top:30px;"/></a>
+                        <div class="row">
+                            <div class="col-2">
+                                <div class="col-md-4 col-xs-4 col-sm-4">
+                                    <div class="contact-us-widget widget">
+                                        <div class="title-widget">Head Office</div>
+                                        <div class="content-widget">
+                                            <div class="info-list">
+                                                <ul class="list-unstyled">
+                                                    <li><i class="icons fa fa-map-marker"></i>Faraday Enterprises, Gali No:6, Ganga Nagar, N.T.P.C Road,Kahalgaon(Bihar) PIN-813203</li>
+
+                                                    <li><i class="icons fa fa-phone"></i>9431548221-Sharda Sharan</li>
+                                                    <li><i class="icons fa fa-phone"></i>8051927142-Sharda Sharan</li>
+
+                                                    <li><i class="icons fa fa-envelope-o"></i><a href="mailto:faradayentp@gmail.com?Subject=Hello%20again" target="_top">faradayentp@gmail.com</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-2">
+                                <div class="col-md-4 col-xs-3">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1168.1163033022956!2d87.24348048441531!3d25.264873572741934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDE1JzU0LjQiTiA4N8KwMTQnMzkuMSJF!5e0!3m2!1sen!2sin!4v1546176372463" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>                            </div>
+                        </div>
+                    </div>
+                   <div class="hyperlink">
+                        <div class="container">
+
+                        <div class="name-company" style="color: blue">&copy; Designed by Faraday Enterprises</div>
+                    </div>
+                </div>
+            </div>
+                </div></div></footer>
+            </div>
+
+
+
+        <script>
+            if ((Cookies.get('color-skin') != undefined) && (Cookies.get('color-skin') != 'color-2'))
+            {
+                $('.logo .header-logo img ,.logo-footer img, .group-logo .img-logo').attr('src', 'faradaylogo.png' + Cookies.get('color-skin') + '.png');
+                $('.logo-black img').attr('src', 'faradaylogo.png' + Cookies.get('color-skin') + '.png');
+            }
+            else if ((Cookies.get('color-skin') == undefined) || (Cookies.get('color-skin') == 'color-2'))
+            {
+                $('.logo .header-logo img , .group-logo .img-logo').attr('src', 'faradaylogo.png');
+                $('.logo-black img').attr('src', 'faradaylogo.png');
+            }
+        </script>
+        <!-- LIBRARY JS-->
+        <script src="assets/libs/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/libs/detect-browser/browser.js"></script>
+        <script src="assets/libs/smooth-scroll/jquery-smoothscroll.js"></script>
+        <script src="assets/libs/wow-js/wow.min.js"></script>
+        <script src="assets/libs/slick-slider/slick.min.js"></script>
+        <script src="assets/libs/selectbox/js/jquery.selectbox-0.2.js"></script>
+        <script src="assets/libs/please-wait/please-wait.min.js"></script>
+        <script src="assets/libs/fancybox/js/jquery.fancybox.js"></script>
+        <script src="assets/libs/fancybox/js/jquery.fancybox-buttons.js"></script>
+        <script src="assets/libs/fancybox/js/jquery.fancybox-thumbs.js"></script>
+        <!--script(src="assets/libs/parallax/jquery.data-parallax.min.js")-->
+        <!-- MAIN JS-->
+        <script src="assets/js/main.js"></script>
+        <!-- LOADING JS FOR PAGE-->
+        <script src="assets/js/pages/home-page.js"></script>
+        <script src="assets/libs/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+        <script>
+            var logo_str = 'faradaylogo.png';
+            if (Cookies.set('color-skin'))
+            {
+                logo_str = 'faradaylogo' + Cookies.set('color-skin') + '.png';
+            }
+            window.loading_screen = window.pleaseWait(
+            {
+                logo: logo_str,
+                backgroundColor: '#fff',
+                loadingHtml: "<div class='spinner sk-spinner-wave'><div class='rect1'></div><div class='rect2'></div><div class='rect3'></div><div class='rect4'></div><div class='rect5'></div></div>",
+            });
+        </script>
+        </div>
+    </body>
+
+
+<!-- Mirrored from swlabs.co/exploore/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Jun 2017 11:03:36 GMT -->
+</html>
