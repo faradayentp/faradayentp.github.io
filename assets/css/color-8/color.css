@@ -1,0 +1,199 @@
+/**
+* [Table of contents]
+ *
+ * [&. Content / #key]
+ * [Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+ *
+ * Summary:
+ *
+ *  0. VARIABLE LESS
+    0.1. Color
+ *  1. MIXINS
+ */
+
+/*----------  0.1. Color  ----------*/
+
+a:active,
+a:focus,
+a:hover {
+    color: #f66666;
+}
+
+.spinner > div {
+    background-color: #f66666;
+}
+
+.bg-transparent .header-topbar .topbar-left li:hover i,
+.bg-transparent .header-topbar .topbar-left li:hover span {
+    color: #f66666;
+}
+
+.bg-transparent .header-main.header-fixed .nav-search form .searchbutton {
+    background-color: #f66666;
+}
+
+.bg-white .header-topbar .topbar-left li:hover i,
+.bg-white .header-topbar .topbar-left li:hover span {
+    color: #f66666;
+}
+
+.header-03 .header-topbar .btn-menu:hover .icons,
+.header-03 .header-topbar .btn-menu:hover .text {
+    color: #f66666;
+}
+
+/*----------  2.1. Topbar Header  ----------*/
+
+.header-topbar a:hover,
+.header-topbar p:hover,
+.header-topbar span:hover {
+    color: #f66666;
+}
+
+.header-topbar .topbar-left > li:hover i,
+.header-topbar .topbar-left > li:hover span {
+    color: #f66666;
+}
+
+.navigation .nav-links li.active .main-menu,
+.navigation .nav-links li:hover .main-menu {
+    color: #f66666;
+}
+
+.navigation .nav-links li:hover .main-menu .icons-dropdown i {
+    color: #f66666;
+}
+
+.navigation .nav-links .main-menu:after,
+.navigation .nav-links .main-menu:before {
+    background-color: #f66666;
+}
+
+.bg-transparent .navigation .nav-links li.active .main-menu,
+.bg-transparent .navigation .nav-links li:hover .main-menu {
+    color: #f66666 !important;
+}
+
+.bg-white .navigation .nav-links li.active .main-menu,
+.bg-white .navigation .nav-links li:hover .main-menu {
+    color: #f66666 !important;
+}
+
+.dropdown-menu-1,
+.dropdown-menu-2 {
+    border-bottom: 2px solid #f66666;
+}
+
+.wrapper-mobile-nav {
+    background: #f66666;
+}
+
+.wrapper-mobile-nav .header-main .login-widget .item:hover {
+    background-color: #f66666;
+}
+
+.menu-mobile {
+    background-color: #f66666;
+}
+
+.menu-mobile .main-menu {
+    background-color: #f66666;
+}
+
+.menu-mobile .main-menu:active,
+.menu-mobile .main-menu:hover {
+    background-color: #f66666;
+}
+
+/*----------  3.3. Both Sidebar  ----------*/
+
+.contact-us-widget .info-list ul li .link:hover {
+    color: #f66666;
+}
+
+.form-email .btn-email {
+    background-color: #f66666;
+}
+
+.booking-widget ul li .link:before {
+    color: #f66666;
+}
+
+.booking-widget ul li:hover .link {
+    color: #f66666;
+}
+
+.explore-widget ul li:hover .link,
+.top-deals-widget ul li:hover .link {
+    color: #f66666;
+}
+
+/*----------   Find     ---------*/
+
+.find-widget {
+    background-color: #f66666;
+}
+
+.find-widget .submit-btn-wrapper .submit-btn {
+    color: #f66666;
+}
+
+.find-widget .submit-btn-wrapper .text {
+    color: #f66666;
+}
+
+.tab-search-condensed {
+    background-color: #f66666;
+}
+
+/*----------    Flight Time    ---------*/
+
+.flight-time-widget .flight-time-visual-widget .visual .bar .arrive.indicator,
+.flight-time-widget .flight-time-visual-widget .visual .bar .depart.indicator {
+    background-color: #f66666;
+}
+
+/*----------      Price      ---------*/
+
+.price-widget .nstSlider .leftGrip.indicator,
+.price-widget .nstSlider .rightGrip.indicator {
+    background-color: #f66666;
+}
+
+/*---------- Tab search  ---------- */
+
+.tab-search .tab-btn-wrapper .tab-btn:active,
+.tab-search .tab-btn-wrapper .tab-btn:focus,
+.tab-search .tab-btn-wrapper .tab-btn:hover {
+    background-color: #f66666;
+}
+
+.tab-search .tab-btn-wrapper.active .tab-btn {
+    background-color: #f66666;
+}
+
+.tab-search-default .tab-btn-wrapper .tab-btn i {
+    color: #f66666;
+}
+
+.tab-search-default .tab-content-bg {
+    background-color: #f66666;
+}
+
+.tab-search-condensed .tab-btn-wrapper .tab-btn {
+    color: #f66666;
+}
+
+.tab-search-condensed .tab-btn-wrapper .tab-btn i {
+    color: #f66666;
+}
+
+/*----------  2.3. Flight Date Selection  ---------*/
+
+.fds-widget .price-select.yellow {
+    background-color: #f66666;
+}
+
+/*----------  2.7. Single Flight Result  ---------*/
+
+.single-flight-result form.flight-class .class-selection-wrapper label.ra
